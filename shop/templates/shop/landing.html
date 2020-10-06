@@ -1,0 +1,54 @@
+{% load static %}
+
+ 
+
+{% extends 'shop/basic.html' %}
+
+{% block title%} S'op Window{% endblock %}
+
+{% block alert %}
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+
+    <strong>Holla Welcome!</strong> WE WELCOME YOU HERE! CHOOSE THE SERVICE
+
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+
+        <span aria-hidden="true">&times;</span>
+
+    </button>
+
+</div>
+
+{% endblock %}
+
+{% block css %}
+
+<style>
+
+    a{
+
+        text-decoration: none;
+
+        color: #00963e;
+
+        padding: 10px;
+
+        margin: 4px;
+
+        border: 1px dashed #00963e;
+
+    }
+
+</style>
+
+{% endblock %}
+
+{% block body %}
+
+    <a href="/shop">SHOP SOMETHING</a>
+
+    <a href="/vlog">CHECK VLOGS</a>
+
+{% endblock %}
+
